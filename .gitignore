@@ -1,0 +1,11 @@
+Debug/
+Release/
+
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+*.sdf
+*.VC.db
+*.opendb
