@@ -64,15 +64,29 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="ProjectPropertySheet\DirectX_Desktop.props" />
+    <Import Project="ProjectPropertySheet\DirectX_Laptop.props" />
+    <Import Project="ProjectPropertySheet\FBX_SDK_Debug_x86_Desktop.props" />
+    <Import Project="ProjectPropertySheet\FBX_SDK_Debug_x86_Laptop.props" />
+    <Import Project="ProjectPropertySheet\BoostCpp_1-64_Desktop.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="ProjectPropertySheet\DirectX_Desktop.props" />
+    <Import Project="ProjectPropertySheet\DirectX_Laptop.props" />
+    <Import Project="ProjectPropertySheet\BoostCpp_1-64_Desktop.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="ProjectPropertySheet\DirectX_Desktop.props" />
+    <Import Project="ProjectPropertySheet\DirectX_Laptop.props" />
+    <Import Project="ProjectPropertySheet\BoostCpp_1-64_Desktop.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="ProjectPropertySheet\DirectX_Desktop.props" />
+    <Import Project="ProjectPropertySheet\DirectX_Laptop.props" />
+    <Import Project="ProjectPropertySheet\BoostCpp_1-64_Desktop.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
